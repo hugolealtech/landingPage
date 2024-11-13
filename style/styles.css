@@ -1,0 +1,143 @@
+:root {
+    --primaria: #0c4037;
+    --secundaria: #bb935d;
+    --terciaria: #a7ac89;
+}
+
+.banner , .banner2{
+    width: 100%;
+    height: 100px;
+    margin-bottom: 350px;
+    margin-top: 50px;
+    margin: 10px solid black;
+}
+
+/* Corpo do celular */
+.phone, .phone2 {
+    width: 240px;
+    height: 400px;
+    background-color: transparent; /* Fundo transparente */
+    border: 2px solid #333;
+    border-radius: 30px;
+    position: relative;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    margin: 50px auto;
+}
+
+/* Tela do celular */
+.screen {
+    width: 220px;
+    height: 350px;
+    background-image: url(images/Captura\ de\ Tela\ 2024-11-13\ às\ 10.13.48.png); /* Imagem de fundo */
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    overflow: hidden;
+}
+
+.screen2 {
+    width: 220px;
+    height: 350px;
+    background-image: url(images/G1RoboIndefereIndevidamente.png); /* Imagem de fundo */
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    overflow: hidden;
+}
+
+/* Botão Home */
+.home-button {
+    width: 40px;
+    height: 40px;
+    background-color: #666;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Alto-falante */
+.speaker {
+    width: 60px;
+    height: 8px;
+    background-color: #444;
+    border-radius: 4px;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Câmera frontal */
+.front-camera{
+    width: 10px;
+    height: 10px;
+    background-color: #222;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+/* Estilo de fundo da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+    color: #333;
+}
+
+h2, h3 {
+    color: var(--primaria);
+    text-align: justify;
+}
+
+h2{
+    text-align: center;
+    font-size: 10px;
+}
+
+p,li{
+    
+    margin-bottom: 10px;
+}
+
+p.lead, ul {
+    color: #333;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    text-align: justify;
+}
+section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+ 
+.button-whatsapp {
+    background-color: var(--primaria);
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    padding: 12px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.button-whatsapp:hover {
+    background-color: #80c617d7;
+}
+
+.button-whatsapp img {
+    width: 24px;
+    margin-right: 10px;
+}
