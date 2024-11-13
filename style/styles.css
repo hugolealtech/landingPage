@@ -28,7 +28,7 @@
 .screen {
     width: 220px;
     height: 350px;
-    background-image: url(/images/Captura\ de\ Tela\ 2024-11-13\ às\ 10.13.48.png); /* Imagem de fundo */
+    background-image: url(/images/noticia2.png); /* Imagem de fundo */
     background-size: cover;
     background-position: center;
     border-radius: 20px;
@@ -41,7 +41,7 @@
 .screen2 {
     width: 220px;
     height: 350px;
-    background-image: url(/images/G1RoboIndefereIndevidamente.png); /* Imagem de fundo */
+    background-image: url(images/noticia1.png); /* Imagem de fundo */
     background-size: cover;
     background-position: center;
     border-radius: 20px;
